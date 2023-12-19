@@ -9,7 +9,7 @@ body.dark {
 }
 
 body {
-	body-background-color: var(--body-background-color);
+	background-color: var(--body-background-color);
 	font-family: "Arial","メイリオ";
 	font-style: normal;
 	font-size: 10pt;
