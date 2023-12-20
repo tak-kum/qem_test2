@@ -1,9 +1,19 @@
+body.light {
+	--body-background-color: #d6f2ff;
+	--body-color: black;
+}
+
+body.dark {
+	--body-background-color: #fff;
+	--body-color: white;
+}
+
 body {
-	background-color: #d6f2ff;
+	background-color: var(--body-background-color);
 	font-family: "Arial","メイリオ";
 	font-style: normal;
 	font-size: 10pt;
-	color: black;
+	color:  var(--body-color);
 }
 
 a {
